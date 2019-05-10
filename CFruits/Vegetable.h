@@ -3,6 +3,7 @@
 #include <time.h>
 #include <string>
 #include <iostream>
+#include "Food.h"
 
 class Vegetable:public Food {
 	private: 

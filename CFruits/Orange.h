@@ -3,6 +3,8 @@
 #include <time.h>
 #include <string>
 #include <iostream>
+#include "Fruit.h"
+
 
 class Orange:public Fruit {
 	public:
