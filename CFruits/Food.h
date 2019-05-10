@@ -7,10 +7,10 @@
 #include <iostream>
 
 class Food {
-	private: 
-		std::string name;
 
 	public:
+
+		std::string name;
 		// constructor: sets name to food by default
 		Food(){
 			this->name = "food";
