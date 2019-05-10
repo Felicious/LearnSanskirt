@@ -8,18 +8,13 @@ class Tomato:public Fruit, public Vegetable {
 
 	//methods:
 public: 
-	Tomato(){
-		this->expiration = time(0);
-		this->ripe = time(0);
-		this->name = "tomato";
-
+	Tomato(): Fruit(time(0), "tomato"), Vegetable(time(0), "tomato"){
 		std::cout << "Tomato " << std::endl;
 	}
-	Tomato(time_t e, time_t r, std::string n){
-			this->expiration = e;
-			this->name = n;
-			this->ripe = r;
-		}
+	Tomato(time_t e, time_t r, std::string n):
+	Fruit(r, "tomato"), Vegetable(e, "tomato"){
+		std::cout << "Tomato " << std::endl;
+	}
 
 
 };
