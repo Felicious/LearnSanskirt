@@ -5,7 +5,7 @@
 #include <iostream>
 #include "Food.h"
 
-class Fruit:public Food {
+class Fruit:public virtual Food {
 	private: 
 		time_t ripe;
 
