@@ -27,5 +27,5 @@ class Vegetable:public Food {
 			std::cout << "Expires on " << 
 			this->expiration << std::endl;
 		}
-}
+};
 #endif

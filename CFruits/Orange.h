@@ -6,13 +6,12 @@
 
 class Orange:public Fruit {
 	public:
-		Orange(time_t r){
-			this->ripe = r;
+		Orange(time_t r): Fruit(r, "orange"){
 			std::cout << "Orange" <<std::endl;
 
 		}
 		void prepare() {
 			std::cout << "Peel the " << this->name << std::endl;
 		}
-}
+};
 #endif

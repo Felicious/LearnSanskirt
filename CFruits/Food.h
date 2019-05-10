@@ -27,6 +27,6 @@ class Food {
 		void prepare(){
 			std::cout << "Prepare the " << this->name << std::endl;
 		}
-}
+};
 
 #endif

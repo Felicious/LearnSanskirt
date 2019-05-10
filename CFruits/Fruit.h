@@ -24,5 +24,5 @@ class Fruit:public Food {
 			std::cout << "You can eat it on " << 
 			this->ripe << std::endl;
 		} 
-}
+};
 #endif
