@@ -11,11 +11,11 @@
 int main(){
 	std::cout << "Tomato: " <<std::endl;
 
-	Tomato tom = new Tomato();
+	Tomato *tom = new Tomato();
 
-	tom.prepare();
+	tom->prepare();
 
-	tom.ripeTime();
+	tom->ripeTime();
 
-	tom.expireTime();
+	tom->expireTime();
 }
