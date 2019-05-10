@@ -2,6 +2,7 @@
 #define TOMATO_H 
 #include <time.h>
 #include <string>
+#include <iostream>
 
 class Tomato:public Fruit, public Vegetable {
 	// no data
