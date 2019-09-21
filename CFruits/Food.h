@@ -16,7 +16,7 @@ class Food {
 			this->name = "food";
 
 			std::cout << "Food " << 
-			this->name << std::endl;
+			std::endl;
 
 		}
 
